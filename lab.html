@@ -6,6 +6,45 @@
     <title>Converter</title>
 </head>
 <body>
-    
+    <section id="home">
+        <header><b>Unit Conversions</b></header>
+        <nav>
+            <a href="#temp">Temprature</a>
+            <a href="#dist">Distance</a>
+            <a href="#weight">Weight</a>
+        </nav>
+    </section>
+    <section id="temp">
+        <div id="tmp">
+            <figure>
+                <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/thermo.png" alt="temp conversion">
+                <figcaption>C to F temp</figcaption>
+            </figure>
+
+            <article>
+                <fieldset>
+                    <legend>Temprature
+                    </legend>
+
+                    <label for="Temprature">Celsius</label>
+
+                    <input type="number" id="c"><br>
+                    <button id="converttemp">Convert</button>
+                    <input type="number" id="f"><br>
+
+                    <label for="Temprature">Farehnheit</label>
+
+                </fieldset>
+            </article>
+            <aside>
+                To convert celsuis to fahrenheit yourself, use this formula replacing the `C` with your temperature in celsuis: (C × 9/5) + 32
+            </aside>
+
+
+        </div>
+    </section>
+
+
+
 </body>
 </html>
