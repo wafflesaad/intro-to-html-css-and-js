@@ -1,0 +1,11 @@
+nav a{
+    margin-left: 10vw;
+}
+
+nav a:hover{
+    color: grey !important;
+}
+
+nav h1{
+    margin-left: 4vw;
+}
